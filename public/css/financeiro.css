@@ -1,0 +1,143 @@
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 15px !important;
+}
+.table-striped tbody>tr:nth-child(odd)>td, .table-striped tbody>tr:nth-child(odd)>th {
+    background-color: #f3f2f2;
+}
+.btn {
+    border: none;
+  }
+
+select.form-control.input_default, select.form-control.input_default:focus {
+    border: none;
+    box-shadow: none;
+    font-size: 1em;
+    text-align: right; /* para firefox */
+    text-align-last: right; /* para chrome */
+    padding-right: 60px;
+    background-image: url("../images/dropdown_icon.png");
+    background-repeat: no-repeat;
+    background-position: center right;	    
+}
+/*#data_inicio, #data_fim {
+    width: 40%;
+    display: inline-block;
+    margin-right: 6px;
+    border: none;
+    font-size: 1em;
+    font-weight: 400;
+    text-align: center;
+    box-shadow: none;
+}*/
+/*.box_branco_import_export {
+    box-shadow: 0px 0px 10px #ccc;
+    background-color: #fff;
+    padding: 15px 20px;
+    width: 100%;
+    margin-left: -15px;
+    float: right;
+    border: 0px;
+}
+.box_branco_import_export:hover {
+    border: 0px;
+    background-color: transparent;
+}*/
+/*.box_branco3{
+    width: 100%;
+    padding: 10px 20px;
+}*/
+.table{ 
+    margin-bottom: 0px; 
+}
+#faturado label{ width: 100%; }
+#recebido label{ width: 100%; }
+#convenios label{ width: 100%; }
+#glosa label{ width: 100%; }
+#nao_retornados label{ width: 100%; }
+#nao_faturados label{ width: 100%; }
+#carousel-convenios{
+    overflow: visible;
+}
+.carousel-control.left{
+    background-image: none;
+}
+.carousel-control.right{
+    background-image: none;
+}	
+.carousel-control{ 
+    width: 0px;
+}
+span.fa.fa-angle-left{
+    position: absolute;
+    font-size: 40px;
+    color: #000;
+    left: -20px;
+    top: 28px;
+}
+
+span.fa.fa-angle-right{
+    position: absolute;
+    font-size: 40px;
+    color: #000;
+    right: -20px;
+    top: 28px;
+}	
+.ml_mr{
+    margin-right: -23px; 
+    margin-left: -23px;		
+}
+.pl_pr{
+    padding-right: 0px;
+    padding-left: 0px;		
+}	
+/*.title_financeiro {
+    font-weight: lighter;
+    line-height: 22px;
+    font-size: 22px;
+    margin: 47px 0px -20px 0px;
+}*/
+.txt-periodo img {
+    vertical-align: bottom;
+}	
+.loading_financeiro{
+    position: absolute;
+    bottom: -75px; 
+    left: 39%;
+}	
+
+/* Form Import */
+.form_import{
+    width: 90%;
+    margin: 20px auto;
+}
+h4.modal-title{ color: #000; }
+.modal-upload-file {
+    padding: 0px !important;
+    margin: 55px 0 0 0;
+}
+.label_file_import{ margin-bottom: 10px !important; }
+.upload{ width: 100%; }
+.progress { margin-bottom: 0px !important; }
+div#error_import .alert {
+    margin-bottom: 0px !important;
+}
+.box_financeiro{
+    /* width: 20%; */
+}
+.box_padding{
+    padding: 10px 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #ccc;
+}
+.box_financeiro label{
+    font-size: 12px;
+}
+.box_financeiro .valor{
+    font-size: 14px;
+}
+
+@media(max-width: 768px){
+    .box_financeiro{
+        width: 100%;
+    }
+}

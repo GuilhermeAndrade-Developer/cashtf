@@ -1,0 +1,453 @@
+/* TOPO */
+body{ 
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+header{
+  
+}
+.barra_topo_visao{
+  background: #0e7895;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  top: 101px;
+}
+.barra_topo{
+  background: linear-gradient(to right, #02bcf4 , #e11b79);
+  padding-top: 20px;
+  padding-bottom: 63px;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+.padding_top_default{
+  padding-top: 83px;
+  padding-bottom: 20px;
+  min-height: calc(100vh - 64px);
+}
+.padding_top_default_admin{
+  padding-top: 80px;
+  padding-bottom: 20px;
+  min-height: calc(100vh - 64px);
+}		
+.block_content{
+  box-shadow: 0px 0px 10px #ccc;
+  background-color: #fff;
+  padding: 50px 20px 0px 20px;
+  margin-top: 18px;
+  
+}	
+.block_content_medic_dash{
+  background-color: #fff;
+  padding: 20px 20px;
+  box-shadow: 0px 0px 10px #ccc;
+}
+/* DATAS */
+.box_date{
+  box-shadow: 0px 0px 10px #ccc;
+  background-color: #fff;
+  padding: 15px 20px;
+}
+#data_inicio, #data_fim {
+  width: 40%;
+  display: inline-block;
+  margin-right: 6px;
+  border: none;
+  font-size: 1em;
+  font-weight: 400;
+  text-align: center;
+  box-shadow: none;
+}
+/* HOME */
+.bg_blue, .bg_blue label {
+  background-color: #00b2b2 !important;
+  color: #fff;
+}
+.title_page, .total_price_admin {
+  font-weight: 300;
+  line-height: 24px !important;
+  font-size: 35px !important;
+  margin-top: 11px;
+  color:#777676;
+}
+.title_block_home_admin{
+  font-weight: lighter;
+  line-height: 20px;
+  font-size: 15px;
+  margin: -20px 0px 0px 0px;
+}	
+.number_block_home_admin {
+  font-weight: 600;
+  line-height: 24px !important;
+  font-size: 40px !important;
+  margin-top: 10px;
+}
+.txt_price_admin{
+  font-weight: lighter;
+  line-height: 20px;
+  font-size: 20px;
+  margin: 7px 0px 0px 0px;
+}	
+/* ASSOCIACOES */
+.align-btn-add{
+  text-align: right;
+}
+/* ATENDIMENTO */
+.bg_price_total{ 
+  background-color: #00b1b2; 
+  padding: 15px 0px 5px 0px;
+  color: #FFF;
+  margin-top: 30px;
+}
+/*FINANCEIRO*/
+.title_financeiro {
+  font-weight: 400;
+  line-height: 22px;
+  font-size: 22px;
+  margin: 20px 0px 30px 0px;
+}
+.box_branco_import_export {
+  box-shadow: 0px 0px 10px #ccc;
+  background-color: #fff;
+  padding: 15px 20px;
+  width: 100%;
+  margin-left: -15px;
+  float: right;
+  border: 0px;
+}
+.box_branco_import_export:hover {
+  border: 0px;
+  background-color: transparent;
+}
+.box_branco3{
+  width: 100%;
+  padding: 10px 20px;
+}	
+.container-financeiro{
+  margin-top: 25px; 
+  padding-right: 23px; 
+  padding-left: 23px;
+}
+.button_toggle{ cursor: pointer; }
+.row-financeiro p {
+  text-transform: capitalize;
+} 		
+.informacoes{ background-color: #f3f2f2; }
+.procedimento{ padding: 8px; }
+.procedimento p { margin-left: 7px; }
+.row-financeiro{
+  padding: 15px 0 0 0;
+  border-bottom: 1px solid #e0dcdc;
+  background-color: #f3f2f2;
+}
+.row-financeiro p{ margin-top: 5px; }  		
+.row-header-financeiro{
+  color: #fff;
+  font-weight: normal;
+  background: #12698e;
+  padding: 15px 0 15px 0;
+}		
+
+nav > ul > li:active {
+  text-decoration: underline;
+}
+
+.drawer-hamburger {
+  /* padding: 22px 3.75rem 30px !important; */
+}
+
+.drawer-hamburger-icon, .drawer-hamburger-icon:after, .drawer-hamburger-icon:before {
+  background-color: #fff !important;
+}
+
+/* Ajusta quebra de layout */
+@media (min-width: 768px) and (max-width: 1023px) { 
+  .barra_topo{ padding-bottom: 5px; }
+}
+/* MOBILE E TABLET */
+@media screen and (max-width: 767px){
+  /* GLOBAL */
+  .title_page { margin-bottom: 30px; }
+  .box_date { 
+      width: 100%;
+      text-align: center;
+      margin-bottom: 20px;
+  }	    	
+  /* MENU */
+  a.link_topo_menu i { color: #000 !important; }
+  /* TABLES */
+  table#tabela_clicavel tr td { text-align: center; }
+  /* BTN */
+  .botao_salvar, .botao_salvar:hover, .botao_salvar:active, .botao_salvar:focus { padding: 20px 105px; cursor: pointer; }	
+  .align-btn-salvar-delete:first-child{ margin-bottom: 20px; }
+  .align-btn-salvar-delete{ text-align: center; }
+  .align-btn-add{	text-align: center; }
+  /* DASHBOARD */
+  .title_block_home_admin{ text-align: center; }
+  .number_block_home_admin{ text-align: center; }
+  .txt_price_admin{ text-align: center; }
+  .total_price_admin { 
+      text-align: center; 
+      margin-top: 20px;
+  }
+  .block_content { padding: 50px 20px 0px 20px; }
+
+  /* ASSOCIACOES */
+  .botao_verde {
+      width: 100%;
+      text-align: center;
+  }
+  /* LOTES */
+  .botao_novo_lote {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+  /* CONVENIOS */
+  a.btn.btn-danger.botao_lixeira.removeRegras {
+      width: 100%;
+      margin-top: 20px;
+  }
+  .input_valor_acrescimo{ width: 100%; }
+  #sem_acrescimo input[type=checkbox] {
+      height: 0px !important;
+      margin: -4px 10px 0px 10px !important;
+
+  }
+  /* ATENDIMENTO */
+  form#atendimento label { margin-top: 10px; }
+  select#convenio_select { 
+      width: 100%; 
+      margin: 10px 0 20px 0;
+  }
+  a.btn.btn-danger.botao_lixeira.removeProcedimento{ width: 100%; }
+  .bg_price_total{ margin: 0 0 30PX 0; }
+  /*FINANCEIRO*/
+  .title_financeiro { margin: 20px 0px 30px 0px; }
+  a.box_branco_import_export { margin-bottom: 20px; }
+  button.box_branco_import_export { margin-bottom: 0px; }
+  .box_branco3:first-child{ margin-bottom: 20px; }
+  .box_financeiro:last-child .box_branco3 { margin-bottom: 0; }
+  #form_filtro .col-md-5:last-child .box_branco3 { margin-bottom: 0; }
+  .row-financeiro { text-align: center; }
+  .row-header-financeiro { text-align: center; }
+  /* TOPO */
+  .barra_topo{
+      padding-top: 30px;
+      padding-bottom: 5px;
+  }	
+  .drawer-hamburger { margin: 14px 26px 0 0; }
+  /* PERFIL */
+  .box_branco_adicionar { padding: 20px 20px 100px 20px !important; }
+
+}
+
+@media (min-width: 990px){
+  .drawer-hamburger{
+      padding: 25px 30px !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){ 
+   /* GLOBAL */
+   .title_page { margin-bottom: 30px; }
+  .box_date { 
+      width: 100%;
+      text-align: center;
+      margin-bottom: 20px;
+  }
+  /* MENU */
+  a.link_topo_menu i { color: #000 !important; }
+  /* TABLES */
+  table#tabela_clicavel tr td { text-align: initial; }
+  /* BTN */
+  .botao_salvar, .botao_salvar:hover, .botao_salvar:active, .botao_salvar:focus { padding: 20px 105px !important; cursor: pointer; }	
+  .align-btn-salvar-delete:first-child{ margin-bottom: 20px; }
+  .align-btn-salvar-delete{ text-align: center; }
+  .align-btn-add{	text-align: center; }	        
+   /*FINANCEIRO*/
+  .box_date { 
+      width: 100%;
+      text-align: center;
+      margin-bottom: 20px;
+  }
+  a.box_branco_import_export { margin-bottom: 20px; }
+  button.box_branco_import_export { margin-bottom: 0px; }
+  .box_branco3:first-child{ margin-bottom: 20px; }
+  .box_financeiro:last-child .box_branco3 { margin-bottom: 0; }
+  #form_filtro .col-md-5:last-child .box_branco3 { margin-bottom: 0; }
+  .row-financeiro { text-align: center; }
+  .row-header-financeiro { text-align: center; } 		
+  /* TOPO */
+  .barra_topo{
+      padding-top: 30px;
+      padding-bottom: 5px;
+  }	
+  .drawer-hamburger { margin: 15px 30px 0 0; }
+  /* ATENDIMENTO */
+  form#atendimento label { margin-top: 10px; }
+  select#convenio_select { 
+      width: 100%; 
+      margin: 10px 0 20px 0;
+  }
+  a.btn.btn-danger.botao_lixeira.removeProcedimento{ width: 100%; }
+  .bg_price_total{ margin: 0 0 30PX 0; }
+  /* PERFIL */
+  .box_branco_adicionar { padding: 20px 20px 100px 20px !important; }
+  /* CONVENIOS */
+  a.btn.btn-danger.botao_lixeira.removeRegras {
+      width: 100%;
+      margin-top: 20px;
+  }
+
+}
+
+.link_topo_menu{
+  margin-left: 25px;
+  margin-right: 25px;
+  cursor: pointer;
+}
+.link_topo_menu i{
+  color: #ffff;
+  font-size: 25px;
+  margin-top: 8px;
+}
+.menu_imagem_usuario{
+  width: 165px;
+  position: absolute;
+  z-index: 1;
+}
+.menu_imagem_usuario1{
+  width: 165px;
+  position: absolute;
+  z-index: 1;
+  top: -82px;
+  left: 6px;
+  display: none;
+}
+.menu_nome{
+  font-size: 1.2em;
+  line-height: 14px;
+  color: #fff;
+  font-weight: normal;
+  float: left;
+  margin-left: 10px;
+}
+.menu_cargo{
+  text-transform: uppercase;
+  color: #fff;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 16px;
+  float: left;
+  margin-left: -103px;
+}
+.text_desde{
+  font-size: 12px;
+  font-weight: normal;
+  color: gray;
+  text-transform: uppercase; 
+  position: relative;
+  top: 70px;
+  left: 125px;
+}
+.div_desde{
+  margin-top: 100px; 
+  position: fixed;
+  background-color: #f7f7f7;
+  width: 100%;
+  z-index: 1;
+}
+.mt-5{
+  margin-top: -5px;
+}
+.pl15{
+  padding-left: 15px;
+}
+.mt12{margin-top: 12px;}
+.mt100{ margin-top: 100px; }
+.alignTxt{
+  padding-top: 10px;
+  margin-bottom: -20px;			
+}
+/* Largura do menu mobile */			
+.drawer-nav {
+  min-width: 130px;
+}			
+.fonte_desconectar{
+  font-size: 12px;
+  font-weight: normal;
+  color: #009bed;
+  text-transform: uppercase;
+}
+#logout .modal-body {
+  position: relative;
+  padding: 10px 0px 62px 0px;
+  text-align: center;
+  font-weight: bold;
+}
+.alignIcon_barAdmin {
+  position: relative;
+  top: -4px;
+}		
+a.btn.btn-danger {
+  border: 0px;
+}		
+@media (min-width: 64em){
+  .drawer-navbar {
+      border-bottom: none;
+  }		
+}
+/*   MOBILE  */
+@media (max-width: 768px) { 
+  .align-btn-menu-mobile{
+      margin-top: -5px;
+      margin-bottom: 5px;				
+  }
+  .drawer-nav ul{
+      margin-top: 20px;
+  }
+  .drawer-nav ul li{
+         border-bottom: 1px solid #eee;
+  }
+  .mt100{
+      margin-top: 100px;
+  }
+  .div_desde{
+      margin-top: 113px;
+  }
+}
+/* Remove o background branco do mobile no desktop */
+@media (min-width: 1024px) { 
+  nav.drawer-nav {
+      background: none;
+  }
+}
+
+@media (max-width: 1024px){
+  .link_topo_menu i{
+      color: #151515;
+  }
+}
+
+.text-admin{
+  font-size: 1.2em;
+  line-height: 14px;
+  color: #fff;
+  font-weight: normal;
+  margin-top: 12px;
+  margin-left: 20px;		 
+}	
+.ml20{
+  margin-left: 20px !important;
+}
+.imagem_usuario{
+  width: 70px;
+  height: 70px;
+  margin-top: -14px;
+  float: left;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 50%;
+}

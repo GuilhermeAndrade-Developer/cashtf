@@ -1,0 +1,60 @@
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 15px !important;
+}
+.table-striped tbody>tr:nth-child(odd)>td, .table-striped tbody>tr:nth-child(odd)>th {
+    background-color: #f3f2f2;
+}
+.btn {
+    border: none;
+  }	
+input[type="text"], input[type="password"], input[type="email"] {
+    width: 100%;
+    border: 1px solid;
+    height: 40px;
+}
+select.form-control.input_default, select.form-control.input_default:focus {
+    border-color: #000;
+    border-radius: 0px;
+    height: 40px; 
+    box-shadow: none;
+    padding-right: 40px;
+    font-size: 1em;
+    background-image: url("<?= URL_BASE ?>/images/dropdown_icon.png");
+    background-repeat: no-repeat;
+    background-position: center right 15px;	    
+}	
+.close_box_atendimento{
+    float: right;
+    font-size: 25px;
+    margin: -15px 0px;
+}
+
+.pl0{
+    padding-left: 0px;
+}
+@media (min-width: 1280px) AND (max-width: 1400px){
+    .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9{
+        padding-right: 0px;
+    }	
+}
+.modal-body {
+    padding: 10px 0px 62px 0px;
+}	
+.btn-danger, .btn-danger:hover {
+    background-color: #b20000;
+    border-color: #b20000;
+}	
+.botao_lixeira{
+    line-height: 28px;
+}
+.div_solicitacoes{
+    font-size: 30px; 
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 6px;
+    font-weight: normal;
+}	
+.lixeira_tabela{
+    color: #BFBFBF;
+}

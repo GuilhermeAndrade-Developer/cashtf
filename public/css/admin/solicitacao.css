@@ -1,0 +1,140 @@
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff !important;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #fff !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #fff !important;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: #fff !important;
+}
+.pr0{
+    padding-right: 0px;
+}
+
+.link_esqueci{
+    font-size: 11px;
+    text-decoration: underline;
+    color: #fff;
+    font-weight: normal;
+}
+
+.icon_plus{
+    font-size: 18px; margin-top: 1px;
+}
+.banner_home{
+    background-image: url('images/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.titulo_banner{
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 28px;
+}
+.subtitulo_banner{
+    line-height: 42px;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+html{
+    height: 100%;
+}
+.title_style {
+    font-size: 65px;
+    color: #fff;
+}
+.rodape{
+    background-color: #e0e0e0; color: #9b9b9b; padding-top: 20px; padding-bottom: 20px; position: absolute; bottom: 0; width: 100%;
+}
+.padding-form{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.input_padrao, .input_padrao > i{
+    border-color: #fff !important;
+    color: #fff !important;
+    outline: initial;
+}
+
+.button_pink{
+    background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+    border-radius: 0px;
+    outline: initial !important;
+}
+.button_pink:hover, .button_pink:active, .button_pink:focus{
+    background-color: #f11070;
+    border-color: #f11070;
+    color: #ffffff;
+    border-radius: 0px;
+}
+.mt20{margin-top: 20px;}
+.texto_login{
+    color: #fff;
+    font-size: 26px;
+    line-height: 26px;
+}
+.texto_login b{
+    font-style: italic;
+}
+.copyright_login{
+    color: #fff;
+    font-size: 12px;
+}
+.mt60{
+    margin-top: 60px;
+}
+.logo_login{
+    width: 240px;
+}
+.div_geral_login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+.primeira_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.segunda_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+@media (max-width: 768px){
+    .rodape{
+        position: static; width: 100%;
+    }
+    .padding-form{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .mt60{
+        margin-top: 20px;
+    }
+    .logo_login{
+        width: 180px;
+    }
+}

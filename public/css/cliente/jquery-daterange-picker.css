@@ -1,0 +1,61 @@
+# daterange-picker-container {
+  cor de fundo: #eee;
+  border: 1px solid #ccc;
+  Mostrar nenhum;
+  preenchimento: 20px;
+  posição: absoluta;
+  tamanho da fonte: 12px;
+}
+
+# date-fields {
+  margem direita: 5 px;
+}
+
+# data-fields input {
+  largura: 100 px;
+  background-color: #fff;
+  cursor: padrão;
+}
+
+# drp-container-datepicker {
+  top de preenchimento: 5px;
+}
+
+# drp-input-startdate {
+  margin-left: 5px;
+}
+
+# drp-select-daterange {
+  margem direita: 5 px;
+}
+
+# drp-btn-apply {
+  margem direita: 10 px;
+  flutuar: certo;
+}
+
+# drp-btn-cancel {
+  margem: 2px 5px 0 0;
+  flutuar: certo;
+}
+
+.date-range-item {
+  cor de fundo: amarelo;
+}
+
+.date-range-item a {
+  fundo: 0! importante;
+}
+
+.ui-datepicker {
+  tamanho da fonte: 12px;
+}
+
+.ui-datepicker .ui-icon {
+  recuo de texto: -99999px;
+}
+
+.form-control[readonly] {
+  background-color: #fff;
+  cursor: default;
+}
